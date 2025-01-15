@@ -1,4 +1,4 @@
-# Frontend Developer Assessment Test
+# Vanilla Frontend Dev
 
 Goal: Build basics components for an e-commerce without any framework.
 
