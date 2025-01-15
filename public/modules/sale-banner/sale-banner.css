@@ -1,0 +1,44 @@
+@import '../variables.css';
+
+.sale-banner {
+  /* background-color: var(--bg-component-dark);
+  color: var(--text-dark); */
+  text-align: center;
+  padding: 15px 0 35px 0;
+  box-shadow: 0 4px 6px var(--shadow-dark);
+  max-width: 100%;
+}
+
+.sale-banner__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.sale-banner__description {
+  font-size: 1rem;
+  padding-bottom: 30px;
+  opacity: 0.9;
+
+}
+
+.sale-banner__button {
+  background-color: var(--primary-color);
+  color: var(--bg-dark);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all var(--transition-speed) ease;
+  text-decoration: none;
+}
+
+.sale-banner__button:hover {
+  text-decoration: none;
+  opacity: 0.9;
+  transform: scale(var(--scale-hover));
+}

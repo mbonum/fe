@@ -1,0 +1,16 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mirko Bonomi",
+  "license": "ISC",
+  "description": "Frontend Dev",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

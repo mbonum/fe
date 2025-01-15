@@ -1,0 +1,33 @@
+@import '../variables.css';
+
+.spotlight-module {
+  padding: var(--padding);
+  margin: auto;
+}
+
+.product-card {
+  display: inline-flex;
+  padding: 2rem;
+}
+
+.product-img {
+  width: 15rem;
+  height: 20rem;
+  box-shadow: 0 2px 5px var(--shadow-dark);
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.add-cart-btn {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: large;
+  text-transform: uppercase;
+  padding: 14px 20px 12px 20px;
+}

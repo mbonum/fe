@@ -1,0 +1,50 @@
+@import '../variables.css';
+
+.newsletter-module {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: var(--padding);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--bg-light);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: transform var(--transition-speed);
+}
+
+button:hover {
+  transform: scale(var(--scale-hover));
+}
+
+input.custom-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 60%;
+  padding: 7px 9px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 7px;
+  background-color: white;
+  color: #333;
+  cursor: text; /* Change cursor to text for input */
+  transition: 
+    border-color var(--transition-speed) ease,
+    box-shadow var(--transition-speed) ease;
+  outline: none;
+}
+
+/* Hover and Focus States */
+input.custom-input:hover {
+  border-color: #a0a0a0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input.custom-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--shadow-dark);
+}

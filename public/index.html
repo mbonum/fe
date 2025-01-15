@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FE</title>
+  <link rel="icon" type="image/x-icon" href="/images/svg/question.min.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="modules/navigation.js" type="module"></script>
+</head>
+<body>
+  <header class="nav-module">
+    <div class="nav-container">
+      <div class="brand-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" viewBox="0 0 24 24" width="44"
+          height="44" class="stroke-color">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-9 5.25h.008v.008H12z" />
+        </svg>
+        <span>Brand</span>
+      </div>
+      <button class="hamburger-menu" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" width="30"
+          height="30" viewBox="0 0 24 24">
+          <!-- Change icon if menu open/closed -->
+          <path class="hamburger-path" stroke-linecap="round" stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+      <nav class="nav-links">
+        <a class="nav-item" href="#spotlight">Spotlight</a>
+        <a class="nav-item" href="#">Women</a>
+        <a class="nav-item" href="#">Men</a>
+        <a class="nav-item" href="#sale-banner">Sale</a>
+        <a class="nav-item" href="#faq">FAQ</a>
+        <a class="nav-item" href="#newsletter">Newsletter</a>
+
+        <!-- Cart -->
+        <a class="nav-item cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path 
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007M8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0m7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0" />
+          </svg>
+        </a>
+
+        <!-- Theme Toggle -->
+        <div class="dark-mode-toggle" id="dark-mode-toggle">
+          <div class="icon-container">
+
+            <svg class="mode-icon sun-icon" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24">
+              <path 
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0" />
+            </svg>
+
+            <svg class="mode-icon moon-icon" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.752 15.002A9.7 9.7 0 0 1 18 15.75 9.75 9.75 0 0 1 8.25 6c0-1.33.266-2.597.748-3.752A9.75 9.75 0 0 0 3 11.25 9.75 9.75 0 0 0 12.75 21a9.75 9.75 0 0 0 9.002-5.998" />
+            </svg>
+          </div>
+          <div class="toggle-switch"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="bebas-neue-regular">
+    <!-- Load modules dynamically -->
+  </main>
+
+  <footer class="footer-module">
+    <div class="footer-container">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" viewBox="0 0 24 24" width="44"
+          height="44" class="stroke-color">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-9 5.25h.008v.008H12z" />
+        </svg>
+      <nav class="footer-nav">
+
+        <div class="footer-item font-select">
+          <label for="font-choice">Font:</label>
+          <select id="font-choice" class="selector-style">
+            <option value="bebas-neue-regular">Bebas Neue</option>
+            <option value="jost-regular">Jost</option>
+            <option value="lora-regular">Lora</option>
+            <option value="outfit-regular">Outfit</option>
+          </select>
+        </div>
+        <a class="footer-item" href="#spotlight">Spotlight</a>
+        <a class="footer-item" href="#sale-banner">Sale</a>
+        <a class="footer-item" href="#faq">FAQ</a>
+        <a class="footer-item" href="#newsletter">Newsletter</a>
+      </nav>
+      <div class="footer-info">
+        <p>&copy; 2024 Brand. All rights reserved.</p>
+        <p>
+          <a class="footer-link" href="#privacy-policy">Privacy Policy</a> |
+          <a class="footer-link" href="#terms-of-service">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="font-theme-toggle.js"></script>
+
+</body>
+</html>

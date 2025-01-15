@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #C19975;
+
+  --border-radius: 5px;
+
+  /* Light Mode */
+  --bg-light: #F9F6F4;
+  --text-light: #1D1D1D;
+  --bg-component-light: #FFFFFF;
+  --shadow-light: rgba(0,0,0,0.1);
+
+  /* Dark Mode Colors */
+  --bg-dark: var(--text-light);
+  --text-dark: var(--bg-light);
+  --bg-component-dark: #2C2C2C;
+  --shadow-dark: rgba(255,255,255,0.1);
+
+  /* Transition effect */
+  --transition-speed: 0.3s;
+
+  --scale-hover: 1.1;
+
+  --padding: 2rem;
+}
